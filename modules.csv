@@ -1,0 +1,128 @@
+lecturer_id,lecturer_name,module_id,job_role,teaching_classes
+L001,Dr. Emily Johnson,M00001,senior lecturer,Network Fundamentals
+L002,Prof. Daniel Smith,M00002,professor,Network Routing and Switching
+L003,Dr. Sarah Adams,M00003,senior lecturer,Network Security Principles
+L004,Prof. Michael Brown,M00004,professor,Cryptography and Encryption
+L005,Dr. Jennifer Martinez,M00005,senior lecturer,Secure Network Design and Configuration
+L006,Prof. David Wilson,M00006,professor,Wireless Network Security
+L007,Dr. Samantha Taylor,M00007,senior lecturer,Intrusion Detection and Prevention Systems
+L008,Prof. Christopher Clark,M00008,professor,Firewall Management and Configuration
+L009,Dr. Jessica White,M00009,senior lecturer,Virtual Private Networks (VPNs)
+L010,Prof. Matthew Thompson,M00010,professor,Ethical Hacking and Penetration Testing
+L011,Dr. Lauren Harris,M00011,senior lecturer,Incident Response and Forensics
+L012,Prof. James Rodriguez,M00012,professor,Cloud Security
+L013,Dr. Amanda Lee,M00013,senior lecturer,Advanced Software Engineering
+L014,Prof. Andrew Martinez,M00014,professor,Object-Oriented Programming
+L015,Dr. Rachel Evans,M00015,senior lecturer,Web Development Technologies
+L016,Prof. Joshua Garcia,M00016,professor,Database Systems
+L017,Dr. Olivia Martinez,M00017,senior lecturer,Software Testing and Quality Assurance
+L018,Prof. Benjamin Thomas,M00018,professor,Mobile Application Development
+L019,Dr. Victoria Anderson,M00019,Principal Lecturer,Cloud Computing
+L020,Prof. Ethan Moore,M00020,professor,Agile Software Development
+L021,Dr. Natalie King,M00021,Principal Lecturer,User Interface and User Experience Design
+L022,Prof. Samuel Lewis,M00022,professor,Project Management for Software Development
+L023,Dr. Kimberly Johnson,M00023,Principal Lecturer,Software Security and Cryptography
+L024,Prof. Nicholas Robinson,M00024,professor,Artificial Intelligence and Machine Learning
+L025,Dr. Rebecca Wright,M00025,Principal Lecturer,Introduction to Data Analytics
+L026,Prof. Alexander Hall,M00026,professor,Statistical Analysis for Business
+L027,Dr. Michelle Young,M00027,professor,Data Visualization and Reporting
+L028,Prof. Ryan Carter,M00028,senior lecturer,Database Management and SQL
+L029,Dr. Stephanie Scott,M00029,professor,Predictive Analytics
+L030,Prof. William Baker,M00030,senior lecturer,Machine Learning for Business Analytics
+L001,Dr. Emily Johnson,M00031,senior lecturer,Database Systems
+L002,Prof. Daniel Smith,M00032,professor,Software Testing and Quality Assurance
+L003,Dr. Sarah Adams,M00033,senior lecturer,Mobile Application Development
+L004,Prof. Michael Brown,M00034,professor,Cloud Computing
+L005,Dr. Jennifer Martinez,M00035,senior lecturer,Agile Software Development
+L006,Prof. David Wilson,M00036,professor,User Interface and User Experience Design
+L007,Dr. Samantha Taylor,M00037,senior lecturer,Project Management for Software Development
+L008,Prof. Christopher Clark,M00038,professor,Software Security and Cryptography
+L009,Dr. Jessica White,M00039,senior lecturer,Artificial Intelligence and Machine Learning
+L010,Prof. Matthew Thompson,M00040,professor,Introduction to Data Analytics
+L011,Dr. Lauren Harris,M00041,senior lecturer,Statistical Analysis for Business
+L012,Prof. James Rodriguez,M00042,professor,Data Visualization and Reporting
+L013,Dr. Amanda Lee,M00043,senior lecturer,Database Management and SQL
+L014,Prof. Andrew Martinez,M00044,professor,Predictive Analytics
+L015,Dr. Rachel Evans,M00045,senior lecturer,Machine Learning for Business Analytics
+L016,Prof. Joshua Garcia,M00046,professor,Incident Response and Forensics
+L017,Dr. Olivia Martinez,M00047,senior lecturer,Cloud Security
+L018,Prof. Benjamin Thomas,M00048,professor,Advanced Software Engineering
+L019,Dr. Victoria Anderson,M00049,Principal Lecturer,Object-Oriented Programming
+L020,Prof. Ethan Moore,M00050,professor,Web Development Technologies
+L021,Dr. Natalie King,M00051,Principal Lecturer,Network Fundamentals
+L022,Prof. Samuel Lewis,M00052,professor,Network Routing and Switching
+L023,Dr. Kimberly Johnson,M00053,Principal Lecturer,Network Security Principles
+L024,Prof. Nicholas Robinson,M00054,professor,Cryptography and Encryption
+L025,Dr. Rebecca Wright,M00055,Principal Lecturer,Secure Network Design and Configuration
+L026,Prof. Alexander Hall,M00056,professor,Wireless Network Security
+L027,Dr. Michelle Young,M00057,professor,Intrusion Detection and Prevention Systems
+L028,Prof. Ryan Carter,M00058,senior lecturer,Firewall Management and Configuration
+L029,Dr. Stephanie Scott,M00059,professor,Virtual Private Networks (VPNs)
+L030,Prof. William Baker,M00060,senior lecturer,Ethical Hacking and Penetration Testing
+L001,Dr. Emily Johnson,M00061,senior lecturer,Incident Response and Forensics
+L002,Prof. Daniel Smith,M00062,professor,Cloud Security
+L003,Dr. Sarah Adams,M00063,senior lecturer,Advanced Software Engineering
+L004,Prof. Michael Brown,M00064,professor,Object-Oriented Programming
+L005,Dr. Jennifer Martinez,M00065,senior lecturer,Web Development Technologies
+L006,Prof. David Wilson,M00066,professor,Database Systems
+L007,Dr. Samantha Taylor,M00067,senior lecturer,Software Testing and Quality Assurance
+L008,Prof. Christopher Clark,M00068,professor,Mobile Application Development
+L009,Dr. Jessica White,M00069,senior lecturer,Cloud Computing
+L010,Prof. Matthew Thompson,M00070,professor,Agile Software Development
+L011,Dr. Lauren Harris,M00071,senior lecturer,User Interface and User Experience Design
+L012,Prof. James Rodriguez,M00072,professor,Project Management for Software Development
+L013,Dr. Amanda Lee,M00073,senior lecturer,Software Security and Cryptography
+L014,Prof. Andrew Martinez,M00074,professor,Artificial Intelligence and Machine Learning
+L015,Dr. Rachel Evans,M00075,senior lecturer,Introduction to Data Analytics
+L016,Prof. Joshua Garcia,M00076,professor,Statistical Analysis for Business
+L017,Dr. Olivia Martinez,M00077,senior lecturer,Data Visualization and Reporting
+L018,Prof. Benjamin Thomas,M00078,professor,Database Management and SQL
+L019,Dr. Victoria Anderson,M00079,Principal Lecturer,Predictive Analytics
+L020,Prof. Ethan Moore,M00080,professor,Machine Learning for Business Analytics
+L021,Dr. Natalie King,M00081,Principal Lecturer,Database Systems
+L022,Prof. Samuel Lewis,M00082,professor,Software Testing and Quality Assurance
+L023,Dr. Kimberly Johnson,M00083,Principal Lecturer,Mobile Application Development
+L024,Prof. Nicholas Robinson,M00084,professor,Cloud Computing
+L025,Dr. Rebecca Wright,M00085,Principal Lecturer,Agile Software Development
+L026,Prof. Alexander Hall,M00086,professor,User Interface and User Experience Design
+L027,Dr. Michelle Young,M00087,professor,Project Management for Software Development
+L028,Prof. Ryan Carter,M00088,senior lecturer,Software Security and Cryptography
+L029,Dr. Stephanie Scott,M00089,professor,Artificial Intelligence and Machine Learning
+L030,Prof. William Baker,M00090,senior lecturer,Introduction to Data Analytics
+L001,Dr. Emily Johnson,M00091,senior lecturer,Statistical Analysis for Business
+L002,Prof. Daniel Smith,M00092,professor,Data Visualization and Reporting
+L003,Dr. Sarah Adams,M00093,senior lecturer,Database Management and SQL
+L004,Prof. Michael Brown,M00094,professor,Predictive Analytics
+L005,Dr. Jennifer Martinez,M00095,senior lecturer,Machine Learning for Business Analytics
+L006,Prof. David Wilson,M00096,professor,Incident Response and Forensics
+L007,Dr. Samantha Taylor,M00097,senior lecturer,Cloud Security
+L008,Prof. Christopher Clark,M00098,professor,Advanced Software Engineering
+L009,Dr. Jessica White,M00099,senior lecturer,Object-Oriented Programming
+L010,Prof. Matthew Thompson,M00100,professor,Web Development Technologies
+L011,Dr. Lauren Harris,M00101,senior lecturer,Network Fundamentals
+L012,Prof. James Rodriguez,M00102,professor,Network Routing and Switching
+L013,Dr. Amanda Lee,M00103,senior lecturer,Network Security Principles
+L014,Prof. Andrew Martinez,M00104,professor,Cryptography and Encryption
+L015,Dr. Rachel Evans,M00105,senior lecturer,Secure Network Design and Configuration
+L016,Prof. Joshua Garcia,M00106,professor,Wireless Network Security
+L017,Dr. Olivia Martinez,M00107,senior lecturer,Intrusion Detection and Prevention Systems
+L018,Prof. Benjamin Thomas,M00108,professor,Firewall Management and Configuration
+L019,Dr. Victoria Anderson,M00109,Principal Lecturer,Virtual Private Networks (VPNs)
+L020,Prof. Ethan Moore,M00110,professor,Ethical Hacking and Penetration Testing
+L021,Dr. Natalie King,M00111,Principal Lecturer,Incident Response and Forensics
+L022,Prof. Samuel Lewis,M00112,professor,Cloud Security
+L023,Dr. Kimberly Johnson,M00113,Principal Lecturer,Advanced Software Engineering
+L024,Prof. Nicholas Robinson,M00114,professor,Object-Oriented Programming
+L025,Dr. Rebecca Wright,M00115,Principal Lecturer,Web Development Technologies
+L026,Prof. Alexander Hall,M00116,professor,Database Systems
+L027,Dr. Michelle Young,M00117,professor,Software Testing and Quality Assurance
+L028,Prof. Ryan Carter,M00118,senior lecturer,Mobile Application Development
+L029,Dr. Stephanie Scott,M00119,professor,Cloud Computing
+L030,Prof. William Baker,M00120,senior lecturer,Agile Software Development
+L001,Dr. Emily Johnson,M00121,senior lecturer,User Interface and User Experience Design
+L002,Prof. Daniel Smith,M00122,professor,Project Management for Software Development
+L003,Dr. Sarah Adams,M00123,senior lecturer,Software Security and Cryptography
+L004,Prof. Michael Brown,M00124,professor,Artificial Intelligence and Machine Learning
+L005,Dr. Jennifer Martinez,M00125,senior lecturer,Introduction to Data Analytics
+L006,Prof. David Wilson,M00126,professor,Statistical Analysis for Business
+L007,Dr. Samantha Taylor,M00127,senior lecturer,Data Visualization and Reporting
