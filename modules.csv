@@ -1,128 +1,128 @@
-lecturer_id,lecturer_name,module_id,job_role,teaching_classes
-L001,Dr. Emily Johnson,M00001,senior lecturer,Network Fundamentals
-L002,Prof. Daniel Smith,M00002,professor,Network Routing and Switching
-L003,Dr. Sarah Adams,M00003,senior lecturer,Network Security Principles
-L004,Prof. Michael Brown,M00004,professor,Cryptography and Encryption
-L005,Dr. Jennifer Martinez,M00005,senior lecturer,Secure Network Design and Configuration
-L006,Prof. David Wilson,M00006,professor,Wireless Network Security
-L007,Dr. Samantha Taylor,M00007,senior lecturer,Intrusion Detection and Prevention Systems
-L008,Prof. Christopher Clark,M00008,professor,Firewall Management and Configuration
-L009,Dr. Jessica White,M00009,senior lecturer,Virtual Private Networks (VPNs)
-L010,Prof. Matthew Thompson,M00010,professor,Ethical Hacking and Penetration Testing
-L011,Dr. Lauren Harris,M00011,senior lecturer,Incident Response and Forensics
-L012,Prof. James Rodriguez,M00012,professor,Cloud Security
-L013,Dr. Amanda Lee,M00013,senior lecturer,Advanced Software Engineering
-L014,Prof. Andrew Martinez,M00014,professor,Object-Oriented Programming
-L015,Dr. Rachel Evans,M00015,senior lecturer,Web Development Technologies
-L016,Prof. Joshua Garcia,M00016,professor,Database Systems
-L017,Dr. Olivia Martinez,M00017,senior lecturer,Software Testing and Quality Assurance
-L018,Prof. Benjamin Thomas,M00018,professor,Mobile Application Development
-L019,Dr. Victoria Anderson,M00019,Principal Lecturer,Cloud Computing
-L020,Prof. Ethan Moore,M00020,professor,Agile Software Development
-L021,Dr. Natalie King,M00021,Principal Lecturer,User Interface and User Experience Design
-L022,Prof. Samuel Lewis,M00022,professor,Project Management for Software Development
-L023,Dr. Kimberly Johnson,M00023,Principal Lecturer,Software Security and Cryptography
-L024,Prof. Nicholas Robinson,M00024,professor,Artificial Intelligence and Machine Learning
-L025,Dr. Rebecca Wright,M00025,Principal Lecturer,Introduction to Data Analytics
-L026,Prof. Alexander Hall,M00026,professor,Statistical Analysis for Business
-L027,Dr. Michelle Young,M00027,professor,Data Visualization and Reporting
-L028,Prof. Ryan Carter,M00028,senior lecturer,Database Management and SQL
-L029,Dr. Stephanie Scott,M00029,professor,Predictive Analytics
-L030,Prof. William Baker,M00030,senior lecturer,Machine Learning for Business Analytics
-L001,Dr. Emily Johnson,M00031,senior lecturer,Database Systems
-L002,Prof. Daniel Smith,M00032,professor,Software Testing and Quality Assurance
-L003,Dr. Sarah Adams,M00033,senior lecturer,Mobile Application Development
-L004,Prof. Michael Brown,M00034,professor,Cloud Computing
-L005,Dr. Jennifer Martinez,M00035,senior lecturer,Agile Software Development
-L006,Prof. David Wilson,M00036,professor,User Interface and User Experience Design
-L007,Dr. Samantha Taylor,M00037,senior lecturer,Project Management for Software Development
-L008,Prof. Christopher Clark,M00038,professor,Software Security and Cryptography
-L009,Dr. Jessica White,M00039,senior lecturer,Artificial Intelligence and Machine Learning
-L010,Prof. Matthew Thompson,M00040,professor,Introduction to Data Analytics
-L011,Dr. Lauren Harris,M00041,senior lecturer,Statistical Analysis for Business
-L012,Prof. James Rodriguez,M00042,professor,Data Visualization and Reporting
-L013,Dr. Amanda Lee,M00043,senior lecturer,Database Management and SQL
-L014,Prof. Andrew Martinez,M00044,professor,Predictive Analytics
-L015,Dr. Rachel Evans,M00045,senior lecturer,Machine Learning for Business Analytics
-L016,Prof. Joshua Garcia,M00046,professor,Incident Response and Forensics
-L017,Dr. Olivia Martinez,M00047,senior lecturer,Cloud Security
-L018,Prof. Benjamin Thomas,M00048,professor,Advanced Software Engineering
-L019,Dr. Victoria Anderson,M00049,Principal Lecturer,Object-Oriented Programming
-L020,Prof. Ethan Moore,M00050,professor,Web Development Technologies
-L021,Dr. Natalie King,M00051,Principal Lecturer,Network Fundamentals
-L022,Prof. Samuel Lewis,M00052,professor,Network Routing and Switching
-L023,Dr. Kimberly Johnson,M00053,Principal Lecturer,Network Security Principles
-L024,Prof. Nicholas Robinson,M00054,professor,Cryptography and Encryption
-L025,Dr. Rebecca Wright,M00055,Principal Lecturer,Secure Network Design and Configuration
-L026,Prof. Alexander Hall,M00056,professor,Wireless Network Security
-L027,Dr. Michelle Young,M00057,professor,Intrusion Detection and Prevention Systems
-L028,Prof. Ryan Carter,M00058,senior lecturer,Firewall Management and Configuration
-L029,Dr. Stephanie Scott,M00059,professor,Virtual Private Networks (VPNs)
-L030,Prof. William Baker,M00060,senior lecturer,Ethical Hacking and Penetration Testing
-L001,Dr. Emily Johnson,M00061,senior lecturer,Incident Response and Forensics
-L002,Prof. Daniel Smith,M00062,professor,Cloud Security
-L003,Dr. Sarah Adams,M00063,senior lecturer,Advanced Software Engineering
-L004,Prof. Michael Brown,M00064,professor,Object-Oriented Programming
-L005,Dr. Jennifer Martinez,M00065,senior lecturer,Web Development Technologies
-L006,Prof. David Wilson,M00066,professor,Database Systems
-L007,Dr. Samantha Taylor,M00067,senior lecturer,Software Testing and Quality Assurance
-L008,Prof. Christopher Clark,M00068,professor,Mobile Application Development
-L009,Dr. Jessica White,M00069,senior lecturer,Cloud Computing
-L010,Prof. Matthew Thompson,M00070,professor,Agile Software Development
-L011,Dr. Lauren Harris,M00071,senior lecturer,User Interface and User Experience Design
-L012,Prof. James Rodriguez,M00072,professor,Project Management for Software Development
-L013,Dr. Amanda Lee,M00073,senior lecturer,Software Security and Cryptography
-L014,Prof. Andrew Martinez,M00074,professor,Artificial Intelligence and Machine Learning
-L015,Dr. Rachel Evans,M00075,senior lecturer,Introduction to Data Analytics
-L016,Prof. Joshua Garcia,M00076,professor,Statistical Analysis for Business
-L017,Dr. Olivia Martinez,M00077,senior lecturer,Data Visualization and Reporting
-L018,Prof. Benjamin Thomas,M00078,professor,Database Management and SQL
-L019,Dr. Victoria Anderson,M00079,Principal Lecturer,Predictive Analytics
-L020,Prof. Ethan Moore,M00080,professor,Machine Learning for Business Analytics
-L021,Dr. Natalie King,M00081,Principal Lecturer,Database Systems
-L022,Prof. Samuel Lewis,M00082,professor,Software Testing and Quality Assurance
-L023,Dr. Kimberly Johnson,M00083,Principal Lecturer,Mobile Application Development
-L024,Prof. Nicholas Robinson,M00084,professor,Cloud Computing
-L025,Dr. Rebecca Wright,M00085,Principal Lecturer,Agile Software Development
-L026,Prof. Alexander Hall,M00086,professor,User Interface and User Experience Design
-L027,Dr. Michelle Young,M00087,professor,Project Management for Software Development
-L028,Prof. Ryan Carter,M00088,senior lecturer,Software Security and Cryptography
-L029,Dr. Stephanie Scott,M00089,professor,Artificial Intelligence and Machine Learning
-L030,Prof. William Baker,M00090,senior lecturer,Introduction to Data Analytics
-L001,Dr. Emily Johnson,M00091,senior lecturer,Statistical Analysis for Business
-L002,Prof. Daniel Smith,M00092,professor,Data Visualization and Reporting
-L003,Dr. Sarah Adams,M00093,senior lecturer,Database Management and SQL
-L004,Prof. Michael Brown,M00094,professor,Predictive Analytics
-L005,Dr. Jennifer Martinez,M00095,senior lecturer,Machine Learning for Business Analytics
-L006,Prof. David Wilson,M00096,professor,Incident Response and Forensics
-L007,Dr. Samantha Taylor,M00097,senior lecturer,Cloud Security
-L008,Prof. Christopher Clark,M00098,professor,Advanced Software Engineering
-L009,Dr. Jessica White,M00099,senior lecturer,Object-Oriented Programming
-L010,Prof. Matthew Thompson,M00100,professor,Web Development Technologies
-L011,Dr. Lauren Harris,M00101,senior lecturer,Network Fundamentals
-L012,Prof. James Rodriguez,M00102,professor,Network Routing and Switching
-L013,Dr. Amanda Lee,M00103,senior lecturer,Network Security Principles
-L014,Prof. Andrew Martinez,M00104,professor,Cryptography and Encryption
-L015,Dr. Rachel Evans,M00105,senior lecturer,Secure Network Design and Configuration
-L016,Prof. Joshua Garcia,M00106,professor,Wireless Network Security
-L017,Dr. Olivia Martinez,M00107,senior lecturer,Intrusion Detection and Prevention Systems
-L018,Prof. Benjamin Thomas,M00108,professor,Firewall Management and Configuration
-L019,Dr. Victoria Anderson,M00109,Principal Lecturer,Virtual Private Networks (VPNs)
-L020,Prof. Ethan Moore,M00110,professor,Ethical Hacking and Penetration Testing
-L021,Dr. Natalie King,M00111,Principal Lecturer,Incident Response and Forensics
-L022,Prof. Samuel Lewis,M00112,professor,Cloud Security
-L023,Dr. Kimberly Johnson,M00113,Principal Lecturer,Advanced Software Engineering
-L024,Prof. Nicholas Robinson,M00114,professor,Object-Oriented Programming
-L025,Dr. Rebecca Wright,M00115,Principal Lecturer,Web Development Technologies
-L026,Prof. Alexander Hall,M00116,professor,Database Systems
-L027,Dr. Michelle Young,M00117,professor,Software Testing and Quality Assurance
-L028,Prof. Ryan Carter,M00118,senior lecturer,Mobile Application Development
-L029,Dr. Stephanie Scott,M00119,professor,Cloud Computing
-L030,Prof. William Baker,M00120,senior lecturer,Agile Software Development
-L001,Dr. Emily Johnson,M00121,senior lecturer,User Interface and User Experience Design
-L002,Prof. Daniel Smith,M00122,professor,Project Management for Software Development
-L003,Dr. Sarah Adams,M00123,senior lecturer,Software Security and Cryptography
-L004,Prof. Michael Brown,M00124,professor,Artificial Intelligence and Machine Learning
-L005,Dr. Jennifer Martinez,M00125,senior lecturer,Introduction to Data Analytics
-L006,Prof. David Wilson,M00126,professor,Statistical Analysis for Business
-L007,Dr. Samantha Taylor,M00127,senior lecturer,Data Visualization and Reporting
+module_id,module_name,program_name,lecturer_id,room_id
+M00001,Network Fundamentals,level 7 Diploma in Networking & Systems Security,L001,online 
+M00002,Network Routing and Switching,level 7 Diploma in Networking & Systems Security,L002,online 
+M00003,Network Security Principles,level 7 Diploma in Networking & Systems Security,L003,online 
+M00004,Cryptography and Encryption,level 7 Diploma in Networking & Systems Security,L004,online 
+M00005,Secure Network Design and Configuration,level 7 Diploma in Networking & Systems Security,L005,online 
+M00006,Wireless Network Security,level 7 Diploma in Networking & Systems Security,L006,online 
+M00007,Intrusion Detection and Prevention Systems,level 7 Diploma in Networking & Systems Security,L007,online 
+M00008,Firewall Management and Configuration,level 7 Diploma in Networking & Systems Security,L008,online 
+M00009,Virtual Private Networks (VPNs),level 7 Diploma in Networking & Systems Security,L009,online 
+M00010,Ethical Hacking and Penetration Testing,level 7 Diploma in Networking & Systems Security,L010,online 
+M00011,Incident Response and Forensics,level 7 Diploma in Networking & Systems Security,L011,online 
+M00012,Cloud Security,level 7 Diploma in Networking & Systems Security,L012,online 
+M00013,Advanced Software Engineering,Level 7 Diploma in Applied Software Development,L013,online 
+M00014,Object-Oriented Programming,Level 7 Diploma in Applied Software Development,L014,online 
+M00015,Web Development Technologies,Level 7 Diploma in Applied Software Development,L015,online 
+M00016,Database Systems,Level 7 Diploma in Applied Software Development,L016,online 
+M00017,Software Testing and Quality Assurance,Level 7 Diploma in Applied Software Development,L017,online 
+M00018,Mobile Application Development,Level 7 Diploma in Applied Software Development,L018,online 
+M00019,Cloud Computing,Level 7 Diploma in Applied Software Development,L019,online 
+M00020,Agile Software Development,Level 7 Diploma in Applied Software Development,L020,online 
+M00021,User Interface and User Experience Design,Level 7 Diploma in Applied Software Development,L021,online 
+M00022,Project Management for Software Development,Level 7 Diploma in Applied Software Development,L022,online 
+M00023,Software Security and Cryptography,Level 7 Diploma in Applied Software Development,L023,online 
+M00024,Artificial Intelligence and Machine Learning in,Level 7 Diploma in Applied Software Development,L024,online 
+M00025,Introduction to Data Analytics,Level 7 Diploma in Data Analytics for Business,L025,online 
+M00026,Statistical Analysis for Business,Level 7 Diploma in Data Analytics for Business,L026,online 
+M00027,Data Visualization and Reporting,Level 7 Diploma in Data Analytics for Business,L027,online 
+M00028,Database Management and SQL,Level 7 Diploma in Data Analytics for Business,L028,online 
+M00029,Predictive Analytics,Level 7 Diploma in Data Analytics for Business,L029,online 
+M00030,Machine Learning for Business Analytics,Level 7 Diploma in Data Analytics for Business,L030,online 
+M00031,Big Data Technologies,Level 7 Diploma in Data Analytics for Business,L001,online 
+M00032,Business Intelligence and Data Warehousing,Level 7 Diploma in Data Analytics for Business,L002,online 
+M00033,Data Mining Techniques ,Level 7 Diploma in Data Analytics for Business,L003,online 
+M00034,Text Mining and Natural Language Processing,Level 7 Diploma in Data Analytics for Business,L004,online 
+M00035,Time Series Analysis and Forecasting,Level 7 Diploma in Data Analytics for Business,L005,online 
+M00036,Ethical and Legal Issues in Data Analytics,Level 7 Diploma in Data Analytics for Business,L006,online 
+M00037,Capstone Project in Data Analytics,Level 7 Diploma in Data Analytics for Business,L007,online 
+M00038,Advanced Data Analytics Techniques,level 8 Higher Diploma in Data Analytics for Business ,L008,Room 101
+M00039,Predictive Modeling and Machine Learning,level 8 Higher Diploma in Data Analytics for Business ,L009,Room 102
+M00040,Advanced Statistical Analysis for Business,level 8 Higher Diploma in Data Analytics for Business ,L010,Room 103
+M00041,Big Data Analytics and Technologies,level 8 Higher Diploma in Data Analytics for Business ,L011,Room 104
+M00042,Data Warehousing and Business Intelligence,level 8 Higher Diploma in Data Analytics for Business ,L012,Room 105
+M00043,Advanced Data Visualization and Reporting,level 8 Higher Diploma in Data Analytics for Business ,L013,Room 106
+M00044,Time Series Analysis and Forecasting  ,level 8 Higher Diploma in Data Analytics for Business ,L014,Room 107
+M00045,Text Analytics and Natural Language Processing,level 8 Higher Diploma in Data Analytics for Business ,L015,Room 108
+M00046,Spatial Data Analysis,level 8 Higher Diploma in Data Analytics for Business ,L016,Room 109
+M00047,Deep Learning for Data Analytics,level 8 Higher Diploma in Data Analytics for Business ,L017,Room 110
+M00048,Optimization and Decision Analytics,level 8 Higher Diploma in Data Analytics for Business ,L018,Room 101
+M00049,Advanced Topics in Data Privacy and Ethics,level 8 Higher Diploma in Data Analytics for Business ,L019,Room 102
+M00050,Advanced Data Mining Techniques,level 8 Higher Diploma in Data Analytics for Business ,L020,Room 103
+M00051,Business Analytics Strategy and Implementation,level 8 Higher Diploma in Data Analytics for Business ,L021,Room 104
+M00052,Capstone Project in Data Analytics for Business,level 8 Higher Diploma in Data Analytics for Business ,L022,Room 105
+M00053,Advanced Machine Learning,level 8 Higher Diploma in Artificial Intelligence ,L023,Room 106
+M00054,Deep Learning and Neural Networks,level 8 Higher Diploma in Artificial Intelligence ,L024,Room 107
+M00055,Natural Language Processing,level 8 Higher Diploma in Artificial Intelligence ,L025,Room 108
+M00056,Computer Vision,level 8 Higher Diploma in Artificial Intelligence ,L026,Room 109
+M00057,Reinforcement Learning,level 8 Higher Diploma in Artificial Intelligence ,L027,Room 110
+M00058,Generative Adversarial Networks (GANs),level 8 Higher Diploma in Artificial Intelligence ,L028,Room 101
+M00059,AI Ethics and Responsible AI,level 8 Higher Diploma in Artificial Intelligence ,L029,Room 102
+M00060,Knowledge Representation and Reasoning,level 8 Higher Diploma in Artificial Intelligence ,L030,Room 103
+M00061,Automated Planning and Scheduling,level 8 Higher Diploma in Artificial Intelligence ,L001,Room 104
+M00062,AI for Robotics and Autonomous Systems,level 8 Higher Diploma in Artificial Intelligence ,L002,Room 105
+M00063,AI in Healthcare,level 8 Higher Diploma in Artificial Intelligence ,L003,Room 106
+M00064,AI in Finance,level 8 Higher Diploma in Artificial Intelligence ,L004,Room 107
+M00065,AI in Business and Marketing,level 8 Higher Diploma in Artificial Intelligence ,L005,Room 108
+M00066,AI in Cybersecurity,level 8 Higher Diploma in Artificial Intelligence ,L006,Room 109
+M00067,AI Project Management and Implementation,level 8 Higher Diploma in Artificial Intelligence ,L007,Room 110
+M00068,Advanced Programming Techniques,level 8 Higher Diploma in Computing,L008,Room 101
+M00069,Software Engineering Principles,level 8 Higher Diploma in Computing,L009,Room 102
+M00070,Database Systems and Management,level 8 Higher Diploma in Computing,L010,Room 103
+M00071,Distributed Systems and Cloud Computing,level 8 Higher Diploma in Computing,L011,Room 104
+M00072,Cybersecurity and Information Assurance,level 8 Higher Diploma in Computing,L012,Room 105
+M00073,Artificial Intelligence and Machine Learning,level 8 Higher Diploma in Computing,L013,Room 106
+M00074,Data Analytics and Visualization,level 8 Higher Diploma in Computing,L014,Room 107
+M00075,Web Development and Technologies,level 8 Higher Diploma in Computing,L015,Room 108
+M00076,Mobile Application Development ,level 8 Higher Diploma in Computing,L016,Room 109
+M00077,Computer Networks and Communication,level 8 Higher Diploma in Computing,L017,Room 110
+M00078,Operating Systems Design and Implementation,level 8 Higher Diploma in Computing,L018,Room 101
+M00079,Advanced Algorithms and Data Structures,level 8 Higher Diploma in Computing,L019,Room 102
+M00080,Software Testing and Quality Assurance ,level 8 Higher Diploma in Computing,L020,Room 103
+M00081,Ethical and Legal Issues in Computing,level 8 Higher Diploma in Computing,L021,Room 104
+M00082,Capstone Project in Computing,level 8 Higher Diploma in Computing,L022,Room 105
+M00083,Foundations of Data Analytics,MSc in Data Analytics,L023,Room 106
+M00084,Statistical Methods for Data Analysis,MSc in Data Analytics,L024,Room 107
+M00085,Machine Learning and Predictive Modeling,MSc in Data Analytics,L025,Room 108
+M00086,Data Mining Techniques,MSc in Data Analytics,L026,Room 109
+M00087,Big Data Technologies and Platforms,MSc in Data Analytics,L027,Room 110
+M00088,Data Visualization and Exploration,MSc in Data Analytics,L028,Room 101
+M00089,Advanced Data Analytics Algorithms,MSc in Data Analytics,L029,Room 102
+M00090,Text Analytics and Natural Language Processing ,MSc in Data Analytics,L030,Room 103
+M00091,Time Series Analysis and Forecasting ,MSc in Data Analytics,L001,Room 104
+M00092,Web Analytics and Social Media Analytics,MSc in Data Analytics,L002,Room 105
+M00093,Data Privacy and Ethics,MSc in Data Analytics,L003,Room 106
+M00094,Cloud Computing for Data Analytics,MSc in Data Analytics,L004,Room 107
+M00095,Optimization and Decision Analytics ,MSc in Data Analytics,L005,Room 108
+M00096,Capstone Project in Data Analytics  ,MSc in Data Analytics,L006,Room 109
+M00097,Elective Modules,MSc in Data Analytics,L007,Room 110
+M00098,Advanced Algorithms and Data Structures ,Level 8 Computer Science,L008,Room 101
+M00099,Distributed Systems and Cloud Computing ,Level 8 Computer Science,L009,Room 102
+M00100,Artificial Intelligence and Machine Learning  ,Level 8 Computer Science,L010,Room 103
+M00101,Advanced Programming Paradigms ,Level 8 Computer Science,L011,Room 104
+M00102,High-Performance Computing,Level 8 Computer Science,L012,Room 105
+M00103,Computer Graphics and Visualization,Level 8 Computer Science,L013,Room 106
+M00104,Cybersecurity and Information Assurance ,Level 8 Computer Science,L014,Room 107
+M00105,Natural Language Processing ,Level 8 Computer Science,L015,Room 108
+M00106,Quantum Computing,Level 8 Computer Science,L016,Room 109
+M00107,Bioinformatics and Computational Biology,Level 8 Computer Science,L017,Room 110
+M00108,Robotics and Autonomous Systems,Level 8 Computer Science,L018,Room 101
+M00109,Human-Computer Interaction,Level 8 Computer Science,L019,Room 102
+M00110,Data Science and Big Data Analytics,Level 8 Computer Science,L020,Room 103
+M00111,Software Engineering Practices and Principles,Level 8 Computer Science,L021,Room 104
+M00112,Research Methods in Computer Science,Level 8 Computer Science,L022,Room 105
+M00113,Cybersecurity Fundamentals,Master of Science in Cybersecurity,L023,Room 106
+M00114,Network Security,Master of Science in Cybersecurity,L024,Room 107
+M00115,Cryptography and Encryption ,Master of Science in Cybersecurity,L025,Room 108
+M00116,Cyber Threat Intelligence,Master of Science in Cybersecurity,L026,Room 109
+M00117,Incident Response and Forensics  ,Master of Science in Cybersecurity,L027,Room 110
+M00118,Secure Software Development,Master of Science in Cybersecurity,L028,Room 101
+M00119,Web and Application Security,Master of Science in Cybersecurity,L029,Room 102
+M00120,Cloud Security  ,Master of Science in Cybersecurity,L030,Room 103
+M00121,Mobile Security,Master of Science in Cybersecurity,L001,Room 104
+M00122,Identity and Access Management,Master of Science in Cybersecurity,L002,Room 105
+M00123,Risk Management and Compliance,Master of Science in Cybersecurity,L003,Room 106
+M00124,Ethical Hacking and Penetration Testing  ,Master of Science in Cybersecurity,L004,Room 107
+M00125,IoT Security,Master of Science in Cybersecurity,L005,Room 108
+M00126,Security Governance and Policy,Master of Science in Cybersecurity,L006,Room 109
+M00127,Capstone Project in Cybersecurity,Master of Science in Cybersecurity,L007,Room 110

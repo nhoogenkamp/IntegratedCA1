@@ -1,71 +1,71 @@
 CREATE DATABASE IF NOT EXISTS Course_Management_System;
+#DROP DATABASE Course_Management_System;
+USE Course_Management_System;
 
-use Course_Management_System;
-
-create table Modules
+CREATE TABLE Modules
 (
-module_id varchar (10),
-module_name varchar(55),
-program_name varchar(55),
-lecturer_id varchar(12),
-room_id varchar(15)
+module_id VARCHAR (10),
+module_name VARCHAR(55),
+program_name VARCHAR(55),
+lecturer_id VARCHAR(12),
+room_id VARCHAR(15)
 );
 
-create table program
+CREATE TABLE program
 (
-program_name varchar(55),
-program_id varchar(12)
+program_name VARCHAR(55),
+program_id VARCHAR(12)
 );
 
-create table Students
+CREATE TABLE Students
 (
-student_id varchar (12),
-student_name varchar(100),
-student_email varchar(100),
-student_phone varchar(16),
-program_name varchar(85)
+student_id VARCHAR (12),
+student_name VARCHAR(100),
+student_email VARCHAR(100),
+student_phone VARCHAR(16),
+program_name VARCHAR(85)
 );
 
-create table enrollment
+CREATE TABLE enrollment
 (
-enrollment_id varchar (10),
-student_id varchar (12),
-program_id varchar(12),
-enrollment_date date,
-finishing_date date 
+enrollment_id VARCHAR (10),
+student_id VARCHAR (12),
+program_id VARCHAR(12),
+enrollment_date DATE,
+finishing_date DATE 
 );
 
-create table lecturers
+CREATE TABLE lecturers
 (
-lecturer_id varchar(12),
-lecturer_name varchar (55),
-module_id varchar (10),
-job_role varchar (50),
-teaching_classes varchar (50)
+lecturer_id VARCHAR(12),
+lecturer_name VARCHAR (55),
+module_id VARCHAR (10),
+job_role VARCHAR (50),
+teaching_classes VARCHAR (50)
 );
 
-create table rooms
+CREATE TABLE rooms
 (
-room_id varchar(25),
-room_name varchar (55)
+room_id VARCHAR(25),
+room_name VARCHAR (55)
 );
 
-create table grades
+CREATE TABLE grades
 (
-student_id varchar (12),
-module_id varchar (10),
-grades int check (grades >=0 and grades <=100) 
+student_id VARCHAR (12),
+module_id VARCHAR (10),
+grades INT CHECK(grades >=0 AND grades <=100) 
 );
 
-create table feedback
+CREATE TABLE feedback
 (
-feedback_id int auto_increment primary key,
-student_id varchar (12),
-feedback_text text,
-feeback_date timestamp default current_timestamp
+feedback_id INT AUTO_INCREMENT PRIMARY KEY,
+student_id VARCHAR (12),
+feedback_text TEXT,
+feeback_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-select * from lecturers;
+SELECT * FROM lecturers;
 
 ALTER TABLE Modules ADD PRIMARY KEY (module_id);
 
@@ -139,3 +139,24 @@ LEFT JOIN lecturers l ON m.lecturer_id = l.lecturer_id
 LEFT JOIN rooms r ON m.room_id = r.room_id
 GROUP BY p.program_name, m.module_name, l.lecturer_name, r.room_name;
 
+# student report
+SELECT s.student_id, s.student_name, p.program_name, m.module_name, g.grades, e.finishing_date,
+CASE WHEN g.grades < 40 THEN 'Y' ELSE 'N' END AS needs_to_repeat_class
+FROM enrollment e
+JOIN Students s ON e.student_id = s.student_id
+JOIN program p ON s.program_name = p.program_name
+JOIN Modules m ON p.program_name = m.program_name
+LEFT JOIN grades g ON e.student_id = g.student_id AND m.module_id = g.module_id
+WHERE g.grades IS NOT NULL
+ORDER BY s.student_id, m.module_name;
+
+#Lecturer report
+SELECT l.lecturer_name, l.job_role, m.module_name, COUNT(e.student_id) AS num_students_currently, l.teaching_classes AS type_class_they_can_teach
+FROM enrollment e
+JOIN Students s ON e.student_id = s.student_id
+JOIN program p ON s.program_name = p.program_name
+JOIN Modules m ON p.program_name = m.program_name
+JOIN lecturers l ON m.module_id = l.module_id
+WHERE e.finishing_date > '2024-03-21'
+GROUP BY l.lecturer_name, l.job_role, m.module_name, l.teaching_classes
+ORDER BY l.lecturer_name ASC;
