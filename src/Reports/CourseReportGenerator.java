@@ -5,25 +5,26 @@
 package Reports;
 
 import interfaces.ReportGenerator;
+import interfaces.ReportFormatter;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
- * @author Capitania Implements reportgenerator interface to create a report.
+ * @author Capitania CourseReportGenerator generates a report of the courses The
+ * SQL query retrieves data including module name, program name, number of
+ * students enrolled, lecturer name, and room name, from various tables and
+ * joins them appropriately. The retrieved data is then formatted into a list of
+ * strings and passed to the provided formatter for further processing.
  */
 public class CourseReportGenerator implements ReportGenerator {
 
-    private String outputFormat;
-
-    public CourseReportGenerator(String outputFormat) {
-        this.outputFormat = outputFormat;
-    }
-
     @Override
-    public void generateReport(Connection connection) throws SQLException {
+    public void generateReport(Connection connection, ReportFormatter formatter) throws SQLException {
         // SQL query for Course Report
         String sql = "SELECT m.module_name, p.program_name, COUNT(DISTINCT e.student_id) AS num_students_enrolled, l.lecturer_name, r.room_name "
                 + "FROM Modules m "
@@ -38,56 +39,25 @@ public class CourseReportGenerator implements ReportGenerator {
             // Execute the query
             ResultSet resultSet = statement.executeQuery();
 
-            // Print the report based on the output format
-            if (outputFormat.equals("console")) {
-                printConsoleReport(resultSet);
-            } else if (outputFormat.equals("txt")) {
-                saveTxtReport(resultSet);
-            } else if (outputFormat.equals("csv")) {
-                saveCsvReport(resultSet);
-            } else {
-                System.out.println("Invalid output format.");
+            // Process the result set
+            // Initialize list to hold report data
+            List<String> reportData = new ArrayList<>();
+            // Add column headers
+            reportData.add("Module Name,Program Name,Enrolled,Lecturer,Room"); 
+            while (resultSet.next()) {
+                // Extract data from the result set
+                String moduleName = resultSet.getString("module_name");
+                String programName = resultSet.getString("program_name");
+                int numStudentsEnrolled = resultSet.getInt("num_students_enrolled");
+                String lecturerName = resultSet.getString("lecturer_name");
+                String roomName = resultSet.getString("room_name");
+
+                // Construct formatted string for the row
+                String rowData = String.format("%s,%s,%d,%s,%s", moduleName, programName, numStudentsEnrolled, lecturerName, roomName);
+                reportData.add(rowData);
             }
+            // Pass the formatted data to the formatter
+            formatter.format(reportData.toArray(new String[0]));
         }
-    }
-
-    private void printConsoleReport(ResultSet resultSet) throws SQLException {
-        // Print the report to the console
-        System.out.println("Course Report:");
-        System.out.println("------------------------------------------------------");
-        /**
-         * Println is a simple way to print messages like course report above
-         * but with PrintF you can specify the format of the printed values In
-         * this case it's used to seperate the columns better to make the print
-         * out on the console more readable.
-         */
-        System.out.printf("%-50s %-55s %-15s %-35s %-25s\n",
-                "Module Name", "Program Name", "Enrolled", "Lecturer", "Room");
-
-        // Process the result set
-        while (resultSet.next()) {
-            // Extract data from the result set
-            String moduleName = resultSet.getString("module_name");
-            String programName = resultSet.getString("program_name");
-            int numStudentsEnrolled = resultSet.getInt("num_students_enrolled");
-            String lecturerName = resultSet.getString("lecturer_name");
-            String roomName = resultSet.getString("room_name");
-
-            // Print the report details
-            System.out.printf("%-50s %-55s %-15s %-35s %-25s\n",
-                    moduleName, programName, numStudentsEnrolled, lecturerName, roomName);
-        }
-    }
-
-    private void saveTxtReport(ResultSet resultSet) {
-        // Logic to save the report as a text file
-        // Not implemented in this example
-        System.out.println("TXT report generation is not implemented yet.");
-    }
-
-    private void saveCsvReport(ResultSet resultSet) {
-        // Logic to save the report as a CSV file
-        // Not implemented in this example
-        System.out.println("CSV report generation is not implemented yet.");
     }
 }

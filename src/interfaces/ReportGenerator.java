@@ -11,9 +11,9 @@ import java.sql.SQLException;
  *  
  * @author Capitania
  * 
- * This interface named reportgenerator has currently one method which is to generate a report with my pooa2024 database connection.
+ * This interface named reportgenerator which has contracts with reports to generate reports.
  * SQLException if there is any access to my database errors 
  */
 public interface ReportGenerator {
-     void generateReport(Connection connection) throws SQLException;
+     void generateReport(Connection connection, ReportFormatter formatter) throws SQLException;
 }

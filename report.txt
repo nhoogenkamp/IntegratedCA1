@@ -1,0 +1,128 @@
+Lecturer Name            Job Role            Module Name                                      Num Students Currently  Type Class They Can Teach                     
+Dr. Amanda Lee           senior lecturer     Advanced Data Visualization and Reporting        15                      Database Management and SQL                   
+Dr. Amanda Lee           senior lecturer     Advanced Software Engineering                    19                      Advanced Software Engineering                 
+Dr. Amanda Lee           senior lecturer     Artificial Intelligence and Machine Learning     14                      Software Security and Cryptography            
+Dr. Amanda Lee           senior lecturer     Computer Graphics and Visualization              18                      Network Security Principles                   
+Dr. Emily Johnson        senior lecturer     Automated Planning and Scheduling                14                      Incident Response and Forensics               
+Dr. Emily Johnson        senior lecturer     Big Data Technologies                            16                      Database Systems                              
+Dr. Emily Johnson        senior lecturer     Mobile Security                                  19                      User Interface and User Experience Design     
+Dr. Emily Johnson        senior lecturer     Network Fundamentals                             18                      Network Fundamentals                          
+Dr. Emily Johnson        senior lecturer     Time Series Analysis and Forecasting             13                      Statistical Analysis for Business             
+Dr. Jennifer Martinez    senior lecturer     AI in Business and Marketing                     14                      Web Development Technologies                  
+Dr. Jennifer Martinez    senior lecturer     IoT Security                                     19                      Introduction to Data Analytics                
+Dr. Jennifer Martinez    senior lecturer     Optimization and Decision Analytics              13                      Machine Learning for Business Analytics       
+Dr. Jennifer Martinez    senior lecturer     Secure Network Design and Configuration          18                      Secure Network Design and Configuration       
+Dr. Jennifer Martinez    senior lecturer     Time Series Analysis and Forecasting             16                      Agile Software Development                    
+Dr. Jessica White        senior lecturer     Distributed Systems and Cloud Computing          18                      Object-Oriented Programming                   
+Dr. Jessica White        senior lecturer     Predictive Modeling and Machine Learning         15                      Artificial Intelligence and Machine Learning  
+Dr. Jessica White        senior lecturer     Software Engineering Principles                  14                      Cloud Computing                               
+Dr. Jessica White        senior lecturer     Virtual Private Networks (VPNs)                  18                      Virtual Private Networks (VPNs)               
+Dr. Kimberly Johnson     Principal Lecturer  Advanced Machine Learning                        14                      Network Security Principles                   
+Dr. Kimberly Johnson     Principal Lecturer  Cybersecurity Fundamentals                       19                      Advanced Software Engineering                 
+Dr. Kimberly Johnson     Principal Lecturer  Foundations of Data Analytics                    13                      Mobile Application Development                
+Dr. Kimberly Johnson     Principal Lecturer  Software Security and Cryptography               19                      Software Security and Cryptography            
+Dr. Lauren Harris        senior lecturer     Advanced Programming Paradigms                   18                      Network Fundamentals                          
+Dr. Lauren Harris        senior lecturer     Big Data Analytics and Technologies              15                      Statistical Analysis for Business             
+Dr. Lauren Harris        senior lecturer     Distributed Systems and Cloud Computing          14                      User Interface and User Experience Design     
+Dr. Lauren Harris        senior lecturer     Incident Response and Forensics                  18                      Incident Response and Forensics               
+Dr. Michelle Young       professor           Big Data Technologies and Platforms              13                      Project Management for Software Development   
+Dr. Michelle Young       professor           Data Visualization and Reporting                 16                      Data Visualization and Reporting              
+Dr. Michelle Young       professor           Incident Response and Forensics                  19                      Software Testing and Quality Assurance        
+Dr. Michelle Young       professor           Reinforcement Learning                           14                      Intrusion Detection and Prevention Systems    
+Dr. Natalie King         Principal Lecturer  Business Analytics Strategy and Implementation   15                      Network Fundamentals                          
+Dr. Natalie King         Principal Lecturer  Ethical and Legal Issues in Computing            14                      Database Systems                              
+Dr. Natalie King         Principal Lecturer  Software Engineering Practices and Principles    18                      Incident Response and Forensics               
+Dr. Natalie King         Principal Lecturer  User Interface and User Experience Design        19                      User Interface and User Experience Design     
+Dr. Olivia Martinez      senior lecturer     Bioinformatics and Computational Biology         18                      Intrusion Detection and Prevention Systems    
+Dr. Olivia Martinez      senior lecturer     Computer Networks and Communication              14                      Data Visualization and Reporting              
+Dr. Olivia Martinez      senior lecturer     Deep Learning for Data Analytics                 15                      Cloud Security                                
+Dr. Olivia Martinez      senior lecturer     Software Testing and Quality Assurance           19                      Software Testing and Quality Assurance        
+Dr. Rachel Evans         senior lecturer     Natural Language Processing                      18                      Secure Network Design and Configuration       
+Dr. Rachel Evans         senior lecturer     Text Analytics and Natural Language Processing   15                      Machine Learning for Business Analytics       
+Dr. Rachel Evans         senior lecturer     Web Development and Technologies                 14                      Introduction to Data Analytics                
+Dr. Rachel Evans         senior lecturer     Web Development Technologies                     19                      Web Development Technologies                  
+Dr. Rebecca Wright       Principal Lecturer  Cryptography and Encryption                      19                      Web Development Technologies                  
+Dr. Rebecca Wright       Principal Lecturer  Introduction to Data Analytics                   16                      Introduction to Data Analytics                
+Dr. Rebecca Wright       Principal Lecturer  Machine Learning and Predictive Modeling         13                      Agile Software Development                    
+Dr. Rebecca Wright       Principal Lecturer  Natural Language Processing                      14                      Secure Network Design and Configuration       
+Dr. Samantha Taylor      senior lecturer     AI Project Management and Implementation         14                      Software Testing and Quality Assurance        
+Dr. Samantha Taylor      senior lecturer     Capstone Project in Cybersecurity                19                      Data Visualization and Reporting              
+Dr. Samantha Taylor      senior lecturer     Capstone Project in Data Analytics               16                      Project Management for Software Development   
+Dr. Samantha Taylor      senior lecturer     Elective Modules                                 13                      Cloud Security                                
+Dr. Samantha Taylor      senior lecturer     Intrusion Detection and Prevention Systems       18                      Intrusion Detection and Prevention Systems    
+Dr. Sarah Adams          senior lecturer     AI in Healthcare                                 14                      Advanced Software Engineering                 
+Dr. Sarah Adams          senior lecturer     Data Mining Techniques                           16                      Mobile Application Development                
+Dr. Sarah Adams          senior lecturer     Data Privacy and Ethics                          13                      Database Management and SQL                   
+Dr. Sarah Adams          senior lecturer     Network Security Principles                      18                      Network Security Principles                   
+Dr. Sarah Adams          senior lecturer     Risk Management and Compliance                   19                      Software Security and Cryptography            
+Dr. Stephanie Scott      professor           Advanced Data Analytics Algorithms               13                      Artificial Intelligence and Machine Learning  
+Dr. Stephanie Scott      professor           AI Ethics and Responsible AI                     14                      Virtual Private Networks (VPNs)               
+Dr. Stephanie Scott      professor           Predictive Analytics                             16                      Predictive Analytics                          
+Dr. Stephanie Scott      professor           Web and Application Security                     19                      Cloud Computing                               
+Dr. Victoria Anderson    Principal Lecturer  Advanced Algorithms and Data Structures          14                      Predictive Analytics                          
+Dr. Victoria Anderson    Principal Lecturer  Advanced Topics in Data Privacy and Ethics       15                      Object-Oriented Programming                   
+Dr. Victoria Anderson    Principal Lecturer  Cloud Computing                                  19                      Cloud Computing                               
+Dr. Victoria Anderson    Principal Lecturer  Human-Computer Interaction                       18                      Virtual Private Networks (VPNs)               
+Prof. Alexander Hall     professor           Computer Vision                                  14                      Wireless Network Security                     
+Prof. Alexander Hall     professor           Cyber Threat Intelligence                        19                      Database Systems                              
+Prof. Alexander Hall     professor           Data Mining Techniques                           13                      User Interface and User Experience Design     
+Prof. Alexander Hall     professor           Statistical Analysis for Business                16                      Statistical Analysis for Business             
+Prof. Andrew Martinez    professor           Cybersecurity and Information Assurance          18                      Cryptography and Encryption                   
+Prof. Andrew Martinez    professor           Data Analytics and Visualization                 14                      Artificial Intelligence and Machine Learning  
+Prof. Andrew Martinez    professor           Object-Oriented Programming                      19                      Object-Oriented Programming                   
+Prof. Andrew Martinez    professor           Time Series Analysis and Forecasting             15                      Predictive Analytics                          
+Prof. Benjamin Thomas    professor           Mobile Application Development                   19                      Mobile Application Development                
+Prof. Benjamin Thomas    professor           Operating Systems Design and Implementation      14                      Database Management and SQL                   
+Prof. Benjamin Thomas    professor           Optimization and Decision Analytics              15                      Advanced Software Engineering                 
+Prof. Benjamin Thomas    professor           Robotics and Autonomous Systems                  18                      Firewall Management and Configuration         
+Prof. Christopher Clark  professor           Advanced Algorithms and Data Structures          18                      Advanced Software Engineering                 
+Prof. Christopher Clark  professor           Advanced Data Analytics Techniques               15                      Software Security and Cryptography            
+Prof. Christopher Clark  professor           Advanced Programming Techniques                  14                      Mobile Application Development                
+Prof. Christopher Clark  professor           Firewall Management and Configuration            18                      Firewall Management and Configuration         
+Prof. Daniel Smith       professor           AI for Robotics and Autonomous Systems           14                      Cloud Security                                
+Prof. Daniel Smith       professor           Business Intelligence and Data Warehousing       16                      Software Testing and Quality Assurance        
+Prof. Daniel Smith       professor           Identity and Access Management                   19                      Project Management for Software Development   
+Prof. Daniel Smith       professor           Network Routing and Switching                    18                      Network Routing and Switching                 
+Prof. Daniel Smith       professor           Web Analytics and Social Media Analytics         13                      Data Visualization and Reporting              
+Prof. David Wilson       professor           AI in Cybersecurity                              14                      Database Systems                              
+Prof. David Wilson       professor           Capstone Project in Data Analytics               13                      Incident Response and Forensics               
+Prof. David Wilson       professor           Ethical and Legal Issues in Data Analytics       16                      User Interface and User Experience Design     
+Prof. David Wilson       professor           Security Governance and Policy                   19                      Statistical Analysis for Business             
+Prof. David Wilson       professor           Wireless Network Security                        18                      Wireless Network Security                     
+Prof. Ethan Moore        professor           Advanced Data Mining Techniques                  15                      Web Development Technologies                  
+Prof. Ethan Moore        professor           Agile Software Development                       19                      Agile Software Development                    
+Prof. Ethan Moore        professor           Data Science and Big Data Analytics              18                      Ethical Hacking and Penetration Testing       
+Prof. Ethan Moore        professor           Software Testing and Quality Assurance           14                      Machine Learning for Business Analytics       
+Prof. James Rodriguez    professor           Cloud Security                                   18                      Cloud Security                                
+Prof. James Rodriguez    professor           Cybersecurity and Information Assurance          14                      Project Management for Software Development   
+Prof. James Rodriguez    professor           Data Warehousing and Business Intelligence       15                      Data Visualization and Reporting              
+Prof. James Rodriguez    professor           High-Performance Computing                       18                      Network Routing and Switching                 
+Prof. Joshua Garcia      professor           Database Systems                                 19                      Database Systems                              
+Prof. Joshua Garcia      professor           Mobile Application Development                   14                      Statistical Analysis for Business             
+Prof. Joshua Garcia      professor           Quantum Computing                                18                      Wireless Network Security                     
+Prof. Joshua Garcia      professor           Spatial Data Analysis                            15                      Incident Response and Forensics               
+Prof. Matthew Thompson   professor           Advanced Statistical Analysis for Business       15                      Introduction to Data Analytics                
+Prof. Matthew Thompson   professor           Artificial Intelligence and Machine Learning     18                      Web Development Technologies                  
+Prof. Matthew Thompson   professor           Database Systems and Management                  14                      Agile Software Development                    
+Prof. Matthew Thompson   professor           Ethical Hacking and Penetration Testing          18                      Ethical Hacking and Penetration Testing       
+Prof. Michael Brown      professor           AI in Finance                                    14                      Object-Oriented Programming                   
+Prof. Michael Brown      professor           Cloud Computing for Data Analytics               13                      Predictive Analytics                          
+Prof. Michael Brown      professor           Cryptography and Encryption                      18                      Cryptography and Encryption                   
+Prof. Michael Brown      professor           Ethical Hacking and Penetration Testing          19                      Artificial Intelligence and Machine Learning  
+Prof. Michael Brown      professor           Text Mining and Natural Language Processing      16                      Cloud Computing                               
+Prof. Nicholas Robinson  professor           Artificial Intelligence and Machine Learning in  19                      Artificial Intelligence and Machine Learning  
+Prof. Nicholas Robinson  professor           Deep Learning and Neural Networks                14                      Cryptography and Encryption                   
+Prof. Nicholas Robinson  professor           Network Security                                 19                      Object-Oriented Programming                   
+Prof. Nicholas Robinson  professor           Statistical Methods for Data Analysis            13                      Cloud Computing                               
+Prof. Ryan Carter        senior lecturer     Data Visualization and Exploration               13                      Software Security and Cryptography            
+Prof. Ryan Carter        senior lecturer     Database Management and SQL                      16                      Database Management and SQL                   
+Prof. Ryan Carter        senior lecturer     Generative Adversarial Networks (GANs)           14                      Firewall Management and Configuration         
+Prof. Ryan Carter        senior lecturer     Secure Software Development                      19                      Mobile Application Development                
+Prof. Samuel Lewis       professor           Capstone Project in Computing                    14                      Software Testing and Quality Assurance        
+Prof. Samuel Lewis       professor           Capstone Project in Data Analytics for Business  15                      Network Routing and Switching                 
+Prof. Samuel Lewis       professor           Project Management for Software Development      19                      Project Management for Software Development   
+Prof. Samuel Lewis       professor           Research Methods in Computer Science             18                      Cloud Security                                
+Prof. William Baker      senior lecturer     Cloud Security                                   19                      Agile Software Development                    
+Prof. William Baker      senior lecturer     Knowledge Representation and Reasoning           14                      Ethical Hacking and Penetration Testing       
+Prof. William Baker      senior lecturer     Machine Learning for Business Analytics          16                      Machine Learning for Business Analytics       
+Prof. William Baker      senior lecturer     Text Analytics and Natural Language Processing   13                      Introduction to Data Analytics                
