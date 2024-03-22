@@ -36,9 +36,30 @@ public class IntegratedCA {
             // Initialize choice variable
             int choice = 0;
             while (true) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Choose the output format for the report:");
+    System.out.println("1. TXT");
+    System.out.println("2. CSV");
+    System.out.println("3. Console");
 
+    int formatChoice = scanner.nextInt();
+    String outputFormat;
+    switch (formatChoice) {
+        case 1:
+            outputFormat = "txt";
+            break;
+        case 2:
+            outputFormat = "csv";
+            break;
+        case 3:
+            outputFormat = "console";
+            break;
+        default:
+            System.out.println("Invalid choice. Defaulting to console output.");
+            outputFormat = "console";
+            break;
+    }
                 // options the user can pick from
-                Scanner scanner = new Scanner(System.in);
                 System.out.println("Choose a report to generate:");
                 System.out.println("1. Course Report");
                 System.out.println("2. Student Report");
@@ -49,13 +70,13 @@ public class IntegratedCA {
                 // call the appropriate report generator depending what the user chooses.
                 switch (choice) {
                     case 1:
-                        generateCourseReport(connection);
+                        generateCourseReport(connection, outputFormat);
                         break;
                     case 2:
-                        generateStudentReport(connection);
+                        generateStudentReport(connection, outputFormat);
                         break;
                     case 3:
-                        generateLecturerReport(connection);
+                        generateLecturerReport(connection, outputFormat);
                         break;
                     case 4:
                         System.out.println("Exiting program...");
@@ -72,21 +93,21 @@ public class IntegratedCA {
          // Generate Course/student/lecturers Report by creating an instance of coursereportgenerator and calling it's generatereport method. 
         //try catch e will print what the problem is.
 
-    private static void generateCourseReport(Connection connection) throws SQLException {
+    private static void generateCourseReport(Connection connection, String outputFormat) throws SQLException {
         // Generate the course report
-        ReportGenerator courseReportGenerator = new CourseReportGenerator();
-        courseReportGenerator.generateReport(connection);
+        ReportGenerator CourseReportGenerator = new CourseReportGenerator(outputFormat);
+        CourseReportGenerator.generateReport(connection);
     }
 
-    private static void generateStudentReport(Connection connection) throws SQLException {
+    private static void generateStudentReport(Connection connection, String outputFormat) throws SQLException {
         // Generate the student report
-        ReportGenerator studentReportGenerator = new studentReportGenerator();
+        ReportGenerator studentReportGenerator = new studentReportGenerator(outputFormat);
         studentReportGenerator.generateReport(connection);
     }
 
-    private static void generateLecturerReport(Connection connection) throws SQLException {
+    private static void generateLecturerReport(Connection connection, String outputFormat) throws SQLException {
         // Generate the lecturer report
-        ReportGenerator lecturerReportGenerator = new lecturerReportGenerator();
+        ReportGenerator lecturerReportGenerator = new lecturerReportGenerator(outputFormat);
         lecturerReportGenerator.generateReport(connection);
     }
 }

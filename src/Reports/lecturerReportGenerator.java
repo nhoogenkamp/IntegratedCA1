@@ -16,6 +16,12 @@ import java.sql.SQLException;
  */
 public class lecturerReportGenerator implements ReportGenerator {
 
+    private String outputFormat;
+
+    public lecturerReportGenerator(String outputFormat) {
+        this.outputFormat = outputFormat;
+    }
+
     @Override
     public void generateReport(Connection connection) throws SQLException {
         // SQL query for Course Report
@@ -32,29 +38,55 @@ public class lecturerReportGenerator implements ReportGenerator {
         try ( PreparedStatement statement = connection.prepareStatement(sql)) {
             // Execute the query
             ResultSet resultSet = statement.executeQuery();
-            // Print the report header
-            System.out.println("Lecturer Report:");
-            System.out.println("------------------------------------------------------");
-            /**
-             * Println is a simple way to print messages like course report
-             * above but with PrintF you can specify the format of the printed
-             * values In this case it's used to seperate the columns better to
-             * make the print out on the console more readable.
-             */
-            System.out.printf("%-30s %-30s %-50s %-30s %-30s\n",
-                    "Lecturer Name", "Job Role", "Module Name", "Num Students Currently", "Type Class They Can Teach");
-            // Process the result set
-            while (resultSet.next()) {
-                // Extract data from the result set
-                String lecturerName = resultSet.getString("lecturer_name");
-                String jobRole = resultSet.getString("job_role");
-                String moduleName = resultSet.getString("module_name");
-                int numStudents = resultSet.getInt("num_students_currently");
-                String typeClass = resultSet.getString("type_class_they_can_teach");
-                // Print the report details
-                System.out.printf("%-30s %-30s %-50s %-30d %-30s\n",
-                        lecturerName, jobRole, moduleName, numStudents, typeClass);
+
+            // Print the report based on the output format
+            if (outputFormat.equals("console")) {
+                printConsoleReport(resultSet);
+            } else if (outputFormat.equals("txt")) {
+                saveTxtReport(resultSet);
+            } else if (outputFormat.equals("csv")) {
+                saveCsvReport(resultSet);
+            } else {
+                System.out.println("Invalid output format.");
             }
         }
+    }
+
+    private void printConsoleReport(ResultSet resultSet) throws SQLException {
+        // Print the report header
+        System.out.println("Lecturer Report:");
+        System.out.println("------------------------------------------------------");
+        /**
+         * Println is a simple way to print messages like course report above
+         * but with PrintF you can specify the format of the printed values In
+         * this case it's used to seperate the columns better to make the print
+         * out on the console more readable.
+         */
+        System.out.printf("%-30s %-30s %-50s %-30s %-30s\n",
+                "Lecturer Name", "Job Role", "Module Name", "Num Students Currently", "Type Class They Can Teach");
+        // Process the result set
+        while (resultSet.next()) {
+            // Extract data from the result set
+            String lecturerName = resultSet.getString("lecturer_name");
+            String jobRole = resultSet.getString("job_role");
+            String moduleName = resultSet.getString("module_name");
+            int numStudents = resultSet.getInt("num_students_currently");
+            String typeClass = resultSet.getString("type_class_they_can_teach");
+            // Print the report details
+            System.out.printf("%-30s %-30s %-50s %-30d %-30s\n",
+                    lecturerName, jobRole, moduleName, numStudents, typeClass);
+        }
+    }
+
+    private void saveTxtReport(ResultSet resultSet) {
+        // Logic to save the report as a text file
+        // Not implemented in this example
+        System.out.println("TXT report generation is not implemented yet.");
+    }
+
+    private void saveCsvReport(ResultSet resultSet) {
+        // Logic to save the report as a CSV file
+        // Not implemented in this example
+        System.out.println("CSV report generation is not implemented yet.");
     }
 }
