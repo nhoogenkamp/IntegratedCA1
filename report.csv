@@ -1,128 +1,128 @@
-Lecturer Name,Job Role,Module Name,Num Students Currently,Type Class They Can Teach
-Dr. Amanda Lee,senior lecturer,Advanced Data Visualization and Reporting,15,Database Management and SQL
-Dr. Amanda Lee,senior lecturer,Advanced Software Engineering,19,Advanced Software Engineering
-Dr. Amanda Lee,senior lecturer,Artificial Intelligence and Machine Learning,14,Software Security and Cryptography
-Dr. Amanda Lee,senior lecturer,Computer Graphics and Visualization,18,Network Security Principles
-Dr. Emily Johnson,senior lecturer,Automated Planning and Scheduling,14,Incident Response and Forensics
-Dr. Emily Johnson,senior lecturer,Big Data Technologies,16,Database Systems
-Dr. Emily Johnson,senior lecturer,Mobile Security,19,User Interface and User Experience Design
-Dr. Emily Johnson,senior lecturer,Network Fundamentals,18,Network Fundamentals
-Dr. Emily Johnson,senior lecturer,Time Series Analysis and Forecasting ,13,Statistical Analysis for Business
-Dr. Jennifer Martinez,senior lecturer,AI in Business and Marketing,14,Web Development Technologies
-Dr. Jennifer Martinez,senior lecturer,IoT Security,19,Introduction to Data Analytics
-Dr. Jennifer Martinez,senior lecturer,Optimization and Decision Analytics ,13,Machine Learning for Business Analytics
-Dr. Jennifer Martinez,senior lecturer,Secure Network Design and Configuration,18,Secure Network Design and Configuration
-Dr. Jennifer Martinez,senior lecturer,Time Series Analysis and Forecasting,16,Agile Software Development
-Dr. Jessica White,senior lecturer,Distributed Systems and Cloud Computing ,18,Object-Oriented Programming
-Dr. Jessica White,senior lecturer,Predictive Modeling and Machine Learning,15,Artificial Intelligence and Machine Learning
-Dr. Jessica White,senior lecturer,Software Engineering Principles,14,Cloud Computing
-Dr. Jessica White,senior lecturer,Virtual Private Networks (VPNs),18,Virtual Private Networks (VPNs)
-Dr. Kimberly Johnson,Principal Lecturer,Advanced Machine Learning,14,Network Security Principles
-Dr. Kimberly Johnson,Principal Lecturer,Cybersecurity Fundamentals,19,Advanced Software Engineering
-Dr. Kimberly Johnson,Principal Lecturer,Foundations of Data Analytics,13,Mobile Application Development
-Dr. Kimberly Johnson,Principal Lecturer,Software Security and Cryptography,19,Software Security and Cryptography
-Dr. Lauren Harris,senior lecturer,Advanced Programming Paradigms ,18,Network Fundamentals
-Dr. Lauren Harris,senior lecturer,Big Data Analytics and Technologies,15,Statistical Analysis for Business
-Dr. Lauren Harris,senior lecturer,Distributed Systems and Cloud Computing,14,User Interface and User Experience Design
-Dr. Lauren Harris,senior lecturer,Incident Response and Forensics,18,Incident Response and Forensics
-Dr. Michelle Young,professor,Big Data Technologies and Platforms,13,Project Management for Software Development
-Dr. Michelle Young,professor,Data Visualization and Reporting,16,Data Visualization and Reporting
-Dr. Michelle Young,professor,Incident Response and Forensics  ,19,Software Testing and Quality Assurance
-Dr. Michelle Young,professor,Reinforcement Learning,14,Intrusion Detection and Prevention Systems
-Dr. Natalie King,Principal Lecturer,Business Analytics Strategy and Implementation,15,Network Fundamentals
-Dr. Natalie King,Principal Lecturer,Ethical and Legal Issues in Computing,14,Database Systems
-Dr. Natalie King,Principal Lecturer,Software Engineering Practices and Principles,18,Incident Response and Forensics
-Dr. Natalie King,Principal Lecturer,User Interface and User Experience Design,19,User Interface and User Experience Design
-Dr. Olivia Martinez,senior lecturer,Bioinformatics and Computational Biology,18,Intrusion Detection and Prevention Systems
-Dr. Olivia Martinez,senior lecturer,Computer Networks and Communication,14,Data Visualization and Reporting
-Dr. Olivia Martinez,senior lecturer,Deep Learning for Data Analytics,15,Cloud Security
-Dr. Olivia Martinez,senior lecturer,Software Testing and Quality Assurance,19,Software Testing and Quality Assurance
-Dr. Rachel Evans,senior lecturer,Natural Language Processing ,18,Secure Network Design and Configuration
-Dr. Rachel Evans,senior lecturer,Text Analytics and Natural Language Processing,15,Machine Learning for Business Analytics
-Dr. Rachel Evans,senior lecturer,Web Development and Technologies,14,Introduction to Data Analytics
-Dr. Rachel Evans,senior lecturer,Web Development Technologies,19,Web Development Technologies
-Dr. Rebecca Wright,Principal Lecturer,Cryptography and Encryption ,19,Web Development Technologies
-Dr. Rebecca Wright,Principal Lecturer,Introduction to Data Analytics,16,Introduction to Data Analytics
-Dr. Rebecca Wright,Principal Lecturer,Machine Learning and Predictive Modeling,13,Agile Software Development
-Dr. Rebecca Wright,Principal Lecturer,Natural Language Processing,14,Secure Network Design and Configuration
-Dr. Samantha Taylor,senior lecturer,AI Project Management and Implementation,14,Software Testing and Quality Assurance
-Dr. Samantha Taylor,senior lecturer,Capstone Project in Cybersecurity,19,Data Visualization and Reporting
-Dr. Samantha Taylor,senior lecturer,Capstone Project in Data Analytics,16,Project Management for Software Development
-Dr. Samantha Taylor,senior lecturer,Elective Modules,13,Cloud Security
-Dr. Samantha Taylor,senior lecturer,Intrusion Detection and Prevention Systems,18,Intrusion Detection and Prevention Systems
-Dr. Sarah Adams,senior lecturer,AI in Healthcare,14,Advanced Software Engineering
-Dr. Sarah Adams,senior lecturer,Data Mining Techniques ,16,Mobile Application Development
-Dr. Sarah Adams,senior lecturer,Data Privacy and Ethics,13,Database Management and SQL
-Dr. Sarah Adams,senior lecturer,Network Security Principles,18,Network Security Principles
-Dr. Sarah Adams,senior lecturer,Risk Management and Compliance,19,Software Security and Cryptography
-Dr. Stephanie Scott,professor,Advanced Data Analytics Algorithms,13,Artificial Intelligence and Machine Learning
-Dr. Stephanie Scott,professor,AI Ethics and Responsible AI,14,Virtual Private Networks (VPNs)
-Dr. Stephanie Scott,professor,Predictive Analytics,16,Predictive Analytics
-Dr. Stephanie Scott,professor,Web and Application Security,19,Cloud Computing
-Dr. Victoria Anderson,Principal Lecturer,Advanced Algorithms and Data Structures,14,Predictive Analytics
-Dr. Victoria Anderson,Principal Lecturer,Advanced Topics in Data Privacy and Ethics,15,Object-Oriented Programming
-Dr. Victoria Anderson,Principal Lecturer,Cloud Computing,19,Cloud Computing
-Dr. Victoria Anderson,Principal Lecturer,Human-Computer Interaction,18,Virtual Private Networks (VPNs)
-Prof. Alexander Hall,professor,Computer Vision,14,Wireless Network Security
-Prof. Alexander Hall,professor,Cyber Threat Intelligence,19,Database Systems
-Prof. Alexander Hall,professor,Data Mining Techniques,13,User Interface and User Experience Design
-Prof. Alexander Hall,professor,Statistical Analysis for Business,16,Statistical Analysis for Business
-Prof. Andrew Martinez,professor,Cybersecurity and Information Assurance ,18,Cryptography and Encryption
-Prof. Andrew Martinez,professor,Data Analytics and Visualization,14,Artificial Intelligence and Machine Learning
-Prof. Andrew Martinez,professor,Object-Oriented Programming,19,Object-Oriented Programming
-Prof. Andrew Martinez,professor,Time Series Analysis and Forecasting  ,15,Predictive Analytics
-Prof. Benjamin Thomas,professor,Mobile Application Development,19,Mobile Application Development
-Prof. Benjamin Thomas,professor,Operating Systems Design and Implementation,14,Database Management and SQL
-Prof. Benjamin Thomas,professor,Optimization and Decision Analytics,15,Advanced Software Engineering
-Prof. Benjamin Thomas,professor,Robotics and Autonomous Systems,18,Firewall Management and Configuration
-Prof. Christopher Clark,professor,Advanced Algorithms and Data Structures ,18,Advanced Software Engineering
-Prof. Christopher Clark,professor,Advanced Data Analytics Techniques,15,Software Security and Cryptography
-Prof. Christopher Clark,professor,Advanced Programming Techniques,14,Mobile Application Development
-Prof. Christopher Clark,professor,Firewall Management and Configuration,18,Firewall Management and Configuration
-Prof. Daniel Smith,professor,AI for Robotics and Autonomous Systems,14,Cloud Security
-Prof. Daniel Smith,professor,Business Intelligence and Data Warehousing,16,Software Testing and Quality Assurance
-Prof. Daniel Smith,professor,Identity and Access Management,19,Project Management for Software Development
-Prof. Daniel Smith,professor,Network Routing and Switching,18,Network Routing and Switching
-Prof. Daniel Smith,professor,Web Analytics and Social Media Analytics,13,Data Visualization and Reporting
-Prof. David Wilson,professor,AI in Cybersecurity,14,Database Systems
-Prof. David Wilson,professor,Capstone Project in Data Analytics  ,13,Incident Response and Forensics
-Prof. David Wilson,professor,Ethical and Legal Issues in Data Analytics,16,User Interface and User Experience Design
-Prof. David Wilson,professor,Security Governance and Policy,19,Statistical Analysis for Business
-Prof. David Wilson,professor,Wireless Network Security,18,Wireless Network Security
-Prof. Ethan Moore,professor,Advanced Data Mining Techniques,15,Web Development Technologies
-Prof. Ethan Moore,professor,Agile Software Development,19,Agile Software Development
-Prof. Ethan Moore,professor,Data Science and Big Data Analytics,18,Ethical Hacking and Penetration Testing
-Prof. Ethan Moore,professor,Software Testing and Quality Assurance ,14,Machine Learning for Business Analytics
-Prof. James Rodriguez,professor,Cloud Security,18,Cloud Security
-Prof. James Rodriguez,professor,Cybersecurity and Information Assurance,14,Project Management for Software Development
-Prof. James Rodriguez,professor,Data Warehousing and Business Intelligence,15,Data Visualization and Reporting
-Prof. James Rodriguez,professor,High-Performance Computing,18,Network Routing and Switching
-Prof. Joshua Garcia,professor,Database Systems,19,Database Systems
-Prof. Joshua Garcia,professor,Mobile Application Development ,14,Statistical Analysis for Business
-Prof. Joshua Garcia,professor,Quantum Computing,18,Wireless Network Security
-Prof. Joshua Garcia,professor,Spatial Data Analysis,15,Incident Response and Forensics
-Prof. Matthew Thompson,professor,Advanced Statistical Analysis for Business,15,Introduction to Data Analytics
-Prof. Matthew Thompson,professor,Artificial Intelligence and Machine Learning  ,18,Web Development Technologies
-Prof. Matthew Thompson,professor,Database Systems and Management,14,Agile Software Development
-Prof. Matthew Thompson,professor,Ethical Hacking and Penetration Testing,18,Ethical Hacking and Penetration Testing
-Prof. Michael Brown,professor,AI in Finance,14,Object-Oriented Programming
-Prof. Michael Brown,professor,Cloud Computing for Data Analytics,13,Predictive Analytics
-Prof. Michael Brown,professor,Cryptography and Encryption,18,Cryptography and Encryption
-Prof. Michael Brown,professor,Ethical Hacking and Penetration Testing  ,19,Artificial Intelligence and Machine Learning
-Prof. Michael Brown,professor,Text Mining and Natural Language Processing,16,Cloud Computing
-Prof. Nicholas Robinson,professor,Artificial Intelligence and Machine Learning in,19,Artificial Intelligence and Machine Learning
-Prof. Nicholas Robinson,professor,Deep Learning and Neural Networks,14,Cryptography and Encryption
-Prof. Nicholas Robinson,professor,Network Security,19,Object-Oriented Programming
-Prof. Nicholas Robinson,professor,Statistical Methods for Data Analysis,13,Cloud Computing
-Prof. Ryan Carter,senior lecturer,Data Visualization and Exploration,13,Software Security and Cryptography
-Prof. Ryan Carter,senior lecturer,Database Management and SQL,16,Database Management and SQL
-Prof. Ryan Carter,senior lecturer,Generative Adversarial Networks (GANs),14,Firewall Management and Configuration
-Prof. Ryan Carter,senior lecturer,Secure Software Development,19,Mobile Application Development
-Prof. Samuel Lewis,professor,Capstone Project in Computing,14,Software Testing and Quality Assurance
-Prof. Samuel Lewis,professor,Capstone Project in Data Analytics for Business,15,Network Routing and Switching
-Prof. Samuel Lewis,professor,Project Management for Software Development,19,Project Management for Software Development
-Prof. Samuel Lewis,professor,Research Methods in Computer Science,18,Cloud Security
-Prof. William Baker,senior lecturer,Cloud Security  ,19,Agile Software Development
-Prof. William Baker,senior lecturer,Knowledge Representation and Reasoning,14,Ethical Hacking and Penetration Testing
-Prof. William Baker,senior lecturer,Machine Learning for Business Analytics,16,Machine Learning for Business Analytics
-Prof. William Baker,senior lecturer,Text Analytics and Natural Language Processing ,13,Introduction to Data Analytics
+Module Name,Program Name,Enrolled,Lecturer,Room
+Advanced Software Engineering,Level 7 Diploma in Applied Software Development,39,Dr. Amanda Lee,online
+Agile Software Development,Level 7 Diploma in Applied Software Development,39,Prof. Ethan Moore,online
+Artificial Intelligence and Machine Learning in,Level 7 Diploma in Applied Software Development,39,Prof. Nicholas Robinson,online
+Cloud Computing,Level 7 Diploma in Applied Software Development,39,Dr. Victoria Anderson,online
+Database Systems,Level 7 Diploma in Applied Software Development,39,Prof. Joshua Garcia,online
+Mobile Application Development,Level 7 Diploma in Applied Software Development,39,Prof. Benjamin Thomas,online
+Object-Oriented Programming,Level 7 Diploma in Applied Software Development,39,Prof. Andrew Martinez,online
+Project Management for Software Development,Level 7 Diploma in Applied Software Development,39,Prof. Samuel Lewis,online
+Software Security and Cryptography,Level 7 Diploma in Applied Software Development,39,Dr. Kimberly Johnson,online
+Software Testing and Quality Assurance,Level 7 Diploma in Applied Software Development,39,Dr. Olivia Martinez,online
+User Interface and User Experience Design,Level 7 Diploma in Applied Software Development,39,Dr. Natalie King,online
+Web Development Technologies,Level 7 Diploma in Applied Software Development,39,Dr. Rachel Evans,online
+Big Data Technologies,Level 7 Diploma in Data Analytics for Business,39,Dr. Emily Johnson,online
+Business Intelligence and Data Warehousing,Level 7 Diploma in Data Analytics for Business,39,Prof. Daniel Smith,online
+Capstone Project in Data Analytics,Level 7 Diploma in Data Analytics for Business,39,Dr. Samantha Taylor,online
+Data Mining Techniques ,Level 7 Diploma in Data Analytics for Business,39,Dr. Sarah Adams,online
+Data Visualization and Reporting,Level 7 Diploma in Data Analytics for Business,39,Dr. Michelle Young,online
+Database Management and SQL,Level 7 Diploma in Data Analytics for Business,39,Prof. Ryan Carter,online
+Ethical and Legal Issues in Data Analytics,Level 7 Diploma in Data Analytics for Business,39,Prof. David Wilson,online
+Introduction to Data Analytics,Level 7 Diploma in Data Analytics for Business,39,Dr. Rebecca Wright,online
+Machine Learning for Business Analytics,Level 7 Diploma in Data Analytics for Business,39,Prof. William Baker,online
+Predictive Analytics,Level 7 Diploma in Data Analytics for Business,39,Dr. Stephanie Scott,online
+Statistical Analysis for Business,Level 7 Diploma in Data Analytics for Business,39,Prof. Alexander Hall,online
+Text Mining and Natural Language Processing,Level 7 Diploma in Data Analytics for Business,39,Prof. Michael Brown,online
+Time Series Analysis and Forecasting,Level 7 Diploma in Data Analytics for Business,39,Dr. Jennifer Martinez,online
+Cloud Security,level 7 Diploma in Networking & Systems Security,39,Prof. James Rodriguez,online
+Cryptography and Encryption,level 7 Diploma in Networking & Systems Security,39,Prof. Michael Brown,online
+Ethical Hacking and Penetration Testing,level 7 Diploma in Networking & Systems Security,39,Prof. Matthew Thompson,online
+Firewall Management and Configuration,level 7 Diploma in Networking & Systems Security,39,Prof. Christopher Clark,online
+Incident Response and Forensics,level 7 Diploma in Networking & Systems Security,39,Dr. Lauren Harris,online
+Intrusion Detection and Prevention Systems,level 7 Diploma in Networking & Systems Security,39,Dr. Samantha Taylor,online
+Network Fundamentals,level 7 Diploma in Networking & Systems Security,39,Dr. Emily Johnson,online
+Network Routing and Switching,level 7 Diploma in Networking & Systems Security,39,Prof. Daniel Smith,online
+Network Security Principles,level 7 Diploma in Networking & Systems Security,39,Dr. Sarah Adams,online
+Secure Network Design and Configuration,level 7 Diploma in Networking & Systems Security,39,Dr. Jennifer Martinez,online
+Virtual Private Networks (VPNs),level 7 Diploma in Networking & Systems Security,39,Dr. Jessica White,online
+Wireless Network Security,level 7 Diploma in Networking & Systems Security,39,Prof. David Wilson,online
+Advanced Algorithms and Data Structures ,Level 8 Computer Science,39,Prof. Christopher Clark,R101
+Advanced Programming Paradigms ,Level 8 Computer Science,39,Dr. Lauren Harris,R104
+Artificial Intelligence and Machine Learning  ,Level 8 Computer Science,39,Prof. Matthew Thompson,R103
+Bioinformatics and Computational Biology,Level 8 Computer Science,39,Dr. Olivia Martinez,R110
+Computer Graphics and Visualization,Level 8 Computer Science,39,Dr. Amanda Lee,R106
+Cybersecurity and Information Assurance ,Level 8 Computer Science,39,Prof. Andrew Martinez,R107
+Data Science and Big Data Analytics,Level 8 Computer Science,39,Prof. Ethan Moore,R103
+Distributed Systems and Cloud Computing ,Level 8 Computer Science,39,Dr. Jessica White,R102
+High-Performance Computing,Level 8 Computer Science,39,Prof. James Rodriguez,R105
+Human-Computer Interaction,Level 8 Computer Science,39,Dr. Victoria Anderson,R102
+Natural Language Processing ,Level 8 Computer Science,39,Dr. Rachel Evans,R108
+Quantum Computing,Level 8 Computer Science,39,Prof. Joshua Garcia,R109
+Research Methods in Computer Science,Level 8 Computer Science,39,Prof. Samuel Lewis,R105
+Robotics and Autonomous Systems,Level 8 Computer Science,39,Prof. Benjamin Thomas,R101
+Software Engineering Practices and Principles,Level 8 Computer Science,39,Dr. Natalie King,R104
+Advanced Machine Learning,level 8 Higher Diploma in Artificial Intelligence ,39,Dr. Kimberly Johnson,R106
+AI Ethics and Responsible AI,level 8 Higher Diploma in Artificial Intelligence ,39,Dr. Stephanie Scott,R102
+AI for Robotics and Autonomous Systems,level 8 Higher Diploma in Artificial Intelligence ,39,Prof. Daniel Smith,R105
+AI in Business and Marketing,level 8 Higher Diploma in Artificial Intelligence ,39,Dr. Jennifer Martinez,R108
+AI in Cybersecurity,level 8 Higher Diploma in Artificial Intelligence ,39,Prof. David Wilson,R109
+AI in Finance,level 8 Higher Diploma in Artificial Intelligence ,39,Prof. Michael Brown,R107
+AI in Healthcare,level 8 Higher Diploma in Artificial Intelligence ,39,Dr. Sarah Adams,R106
+AI Project Management and Implementation,level 8 Higher Diploma in Artificial Intelligence ,39,Dr. Samantha Taylor,R110
+Automated Planning and Scheduling,level 8 Higher Diploma in Artificial Intelligence ,39,Dr. Emily Johnson,R104
+Computer Vision,level 8 Higher Diploma in Artificial Intelligence ,39,Prof. Alexander Hall,R109
+Deep Learning and Neural Networks,level 8 Higher Diploma in Artificial Intelligence ,39,Prof. Nicholas Robinson,R107
+Generative Adversarial Networks (GANs),level 8 Higher Diploma in Artificial Intelligence ,39,Prof. Ryan Carter,R101
+Knowledge Representation and Reasoning,level 8 Higher Diploma in Artificial Intelligence ,39,Prof. William Baker,R103
+Natural Language Processing,level 8 Higher Diploma in Artificial Intelligence ,39,Dr. Rebecca Wright,R108
+Reinforcement Learning,level 8 Higher Diploma in Artificial Intelligence ,39,Dr. Michelle Young,R110
+Advanced Algorithms and Data Structures,level 8 Higher Diploma in Computing,39,Dr. Victoria Anderson,R102
+Advanced Programming Techniques,level 8 Higher Diploma in Computing,39,Prof. Christopher Clark,R101
+Artificial Intelligence and Machine Learning,level 8 Higher Diploma in Computing,39,Dr. Amanda Lee,R106
+Capstone Project in Computing,level 8 Higher Diploma in Computing,39,Prof. Samuel Lewis,R105
+Computer Networks and Communication,level 8 Higher Diploma in Computing,39,Dr. Olivia Martinez,R110
+Cybersecurity and Information Assurance,level 8 Higher Diploma in Computing,39,Prof. James Rodriguez,R105
+Data Analytics and Visualization,level 8 Higher Diploma in Computing,39,Prof. Andrew Martinez,R107
+Database Systems and Management,level 8 Higher Diploma in Computing,39,Prof. Matthew Thompson,R103
+Distributed Systems and Cloud Computing,level 8 Higher Diploma in Computing,39,Dr. Lauren Harris,R104
+Ethical and Legal Issues in Computing,level 8 Higher Diploma in Computing,39,Dr. Natalie King,R104
+Mobile Application Development ,level 8 Higher Diploma in Computing,39,Prof. Joshua Garcia,R109
+Operating Systems Design and Implementation,level 8 Higher Diploma in Computing,39,Prof. Benjamin Thomas,R101
+Software Engineering Principles,level 8 Higher Diploma in Computing,39,Dr. Jessica White,R102
+Software Testing and Quality Assurance ,level 8 Higher Diploma in Computing,39,Prof. Ethan Moore,R103
+Web Development and Technologies,level 8 Higher Diploma in Computing,39,Dr. Rachel Evans,R108
+Advanced Data Analytics Techniques,level 8 Higher Diploma in Data Analytics for Business ,39,Prof. Christopher Clark,R101
+Advanced Data Mining Techniques,level 8 Higher Diploma in Data Analytics for Business ,39,Prof. Ethan Moore,R103
+Advanced Data Visualization and Reporting,level 8 Higher Diploma in Data Analytics for Business ,39,Dr. Amanda Lee,R106
+Advanced Statistical Analysis for Business,level 8 Higher Diploma in Data Analytics for Business ,39,Prof. Matthew Thompson,R103
+Advanced Topics in Data Privacy and Ethics,level 8 Higher Diploma in Data Analytics for Business ,39,Dr. Victoria Anderson,R102
+Big Data Analytics and Technologies,level 8 Higher Diploma in Data Analytics for Business ,39,Dr. Lauren Harris,R104
+Business Analytics Strategy and Implementation,level 8 Higher Diploma in Data Analytics for Business ,39,Dr. Natalie King,R104
+Capstone Project in Data Analytics for Business,level 8 Higher Diploma in Data Analytics for Business ,39,Prof. Samuel Lewis,R105
+Data Warehousing and Business Intelligence,level 8 Higher Diploma in Data Analytics for Business ,39,Prof. James Rodriguez,R105
+Deep Learning for Data Analytics,level 8 Higher Diploma in Data Analytics for Business ,39,Dr. Olivia Martinez,R110
+Optimization and Decision Analytics,level 8 Higher Diploma in Data Analytics for Business ,39,Prof. Benjamin Thomas,R101
+Predictive Modeling and Machine Learning,level 8 Higher Diploma in Data Analytics for Business ,39,Dr. Jessica White,R102
+Spatial Data Analysis,level 8 Higher Diploma in Data Analytics for Business ,39,Prof. Joshua Garcia,R109
+Text Analytics and Natural Language Processing,level 8 Higher Diploma in Data Analytics for Business ,39,Dr. Rachel Evans,R108
+Time Series Analysis and Forecasting  ,level 8 Higher Diploma in Data Analytics for Business ,39,Prof. Andrew Martinez,R107
+Capstone Project in Cybersecurity,Master of Science in Cybersecurity,38,Dr. Samantha Taylor,R110
+Cloud Security  ,Master of Science in Cybersecurity,38,Prof. William Baker,R103
+Cryptography and Encryption ,Master of Science in Cybersecurity,38,Dr. Rebecca Wright,R108
+Cyber Threat Intelligence,Master of Science in Cybersecurity,38,Prof. Alexander Hall,R109
+Cybersecurity Fundamentals,Master of Science in Cybersecurity,38,Dr. Kimberly Johnson,R106
+Ethical Hacking and Penetration Testing  ,Master of Science in Cybersecurity,38,Prof. Michael Brown,R107
+Identity and Access Management,Master of Science in Cybersecurity,38,Prof. Daniel Smith,R105
+Incident Response and Forensics  ,Master of Science in Cybersecurity,38,Dr. Michelle Young,R110
+IoT Security,Master of Science in Cybersecurity,38,Dr. Jennifer Martinez,R108
+Mobile Security,Master of Science in Cybersecurity,38,Dr. Emily Johnson,R104
+Network Security,Master of Science in Cybersecurity,38,Prof. Nicholas Robinson,R107
+Risk Management and Compliance,Master of Science in Cybersecurity,38,Dr. Sarah Adams,R106
+Secure Software Development,Master of Science in Cybersecurity,38,Prof. Ryan Carter,R101
+Security Governance and Policy,Master of Science in Cybersecurity,38,Prof. David Wilson,R109
+Web and Application Security,Master of Science in Cybersecurity,38,Dr. Stephanie Scott,R102
+Advanced Data Analytics Algorithms,MSc in Data Analytics,39,Dr. Stephanie Scott,R102
+Big Data Technologies and Platforms,MSc in Data Analytics,39,Dr. Michelle Young,R110
+Capstone Project in Data Analytics  ,MSc in Data Analytics,39,Prof. David Wilson,R109
+Cloud Computing for Data Analytics,MSc in Data Analytics,39,Prof. Michael Brown,R107
+Data Mining Techniques,MSc in Data Analytics,39,Prof. Alexander Hall,R109
+Data Privacy and Ethics,MSc in Data Analytics,39,Dr. Sarah Adams,R106
+Data Visualization and Exploration,MSc in Data Analytics,39,Prof. Ryan Carter,R101
+Elective Modules,MSc in Data Analytics,39,Dr. Samantha Taylor,R110
+Foundations of Data Analytics,MSc in Data Analytics,39,Dr. Kimberly Johnson,R106
+Machine Learning and Predictive Modeling,MSc in Data Analytics,39,Dr. Rebecca Wright,R108
+Optimization and Decision Analytics ,MSc in Data Analytics,39,Dr. Jennifer Martinez,R108
+Statistical Methods for Data Analysis,MSc in Data Analytics,39,Prof. Nicholas Robinson,R107
+Text Analytics and Natural Language Processing ,MSc in Data Analytics,39,Prof. William Baker,R103
+Time Series Analysis and Forecasting ,MSc in Data Analytics,39,Dr. Emily Johnson,R104
+Web Analytics and Social Media Analytics,MSc in Data Analytics,39,Prof. Daniel Smith,R105

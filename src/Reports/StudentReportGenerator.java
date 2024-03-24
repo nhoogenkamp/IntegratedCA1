@@ -25,6 +25,8 @@ public class StudentReportGenerator implements ReportGenerator {
 
     @Override
     public void generateReport(Connection connection, ReportFormatter formatter) throws SQLException {
+        // Lock the tables before executing the query
+        lockTables(connection);
 
         // SQL query for Student Report
         String sql = "SELECT s.student_id, s.student_name, p.program_name, m.module_name, g.grades, e.finishing_date, "
@@ -65,6 +67,25 @@ public class StudentReportGenerator implements ReportGenerator {
 
             // Pass the formatted data to the formatter
             formatter.format(reportData.toArray(new String[0]));
+        } finally {
+            // Unlock the tables after executing the query
+            unlockTables(connection);
+        }
+    }
+
+    // Method to lock tables
+    private void lockTables(Connection connection) throws SQLException {
+        String lockSql = "LOCK TABLES enrollment e READ, Students s READ, program p READ, Modules m READ, grades g READ";
+        try (PreparedStatement lockStatement = connection.prepareStatement(lockSql)) {
+            lockStatement.execute();
+        }
+    }
+
+    // Method to unlock tables
+    private void unlockTables(Connection connection) throws SQLException {
+        String unlockSql = "UNLOCK TABLES";
+        try (PreparedStatement unlockStatement = connection.prepareStatement(unlockSql)) {
+            unlockStatement.execute();
         }
     }
 }

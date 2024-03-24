@@ -25,6 +25,8 @@ public class LecturerReportGenerator implements ReportGenerator {
 
     @Override
     public void generateReport(Connection connection, ReportFormatter formatter) throws SQLException {
+        // Lock the tables before executing the query
+        lockTables(connection);
         
         // SQL query for Lecturer Report
         String sql = "SELECT l.lecturer_name, l.job_role, m.module_name, COUNT(e.student_id) AS num_students_currently, "
@@ -63,6 +65,24 @@ public class LecturerReportGenerator implements ReportGenerator {
             }
             // Pass the formatted data to the formatter
             formatter.format(reportData.toArray(new String[0]));
+        } finally {
+            // Unlock the tables after executing the query
+            unlockTables(connection);
+        }
+    }
+    // Method to lock tables
+    private void lockTables(Connection connection) throws SQLException {
+        String lockSql = "LOCK TABLES enrollment e READ, Students s READ, program p READ, Modules m READ, lecturers l READ";
+        try (PreparedStatement lockStatement = connection.prepareStatement(lockSql)) {
+            lockStatement.execute();
+        }
+    }
+
+    // Method to unlock tables
+    private void unlockTables(Connection connection) throws SQLException {
+        String unlockSql = "UNLOCK TABLES";
+        try (PreparedStatement unlockStatement = connection.prepareStatement(unlockSql)) {
+            unlockStatement.execute();
         }
     }
 }

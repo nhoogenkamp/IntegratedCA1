@@ -130,6 +130,9 @@ GROUP BY m.module_id, m.module_name
 ORDER BY avg_grade DESC;
 
 #course report 
+-- Lock the tables being read
+LOCK TABLES Modules m READ, program p READ, Students s READ, enrollment e READ, lecturers l READ, rooms r READ;
+
 SELECT m.module_name, p.program_name, COUNT(DISTINCT e.student_id) AS num_students_enrolled, l.lecturer_name, r.room_name
 FROM Modules m
 JOIN program p ON m.program_name = p.program_name
@@ -139,7 +142,13 @@ LEFT JOIN lecturers l ON m.lecturer_id = l.lecturer_id
 LEFT JOIN rooms r ON m.room_id = r.room_id
 GROUP BY p.program_name, m.module_name, l.lecturer_name, r.room_name;
 
+-- Release the locks
+UNLOCK TABLES;
+
 # student report
+-- Lock the tables being read
+LOCK TABLES enrollment e READ, Students s READ, program p READ, Modules m READ, grades g READ;
+
 SELECT s.student_id, s.student_name, p.program_name, m.module_name, g.grades, e.finishing_date,
 CASE WHEN g.grades < 40 THEN 'Y' ELSE 'N' END AS needs_to_repeat_class
 FROM enrollment e
@@ -150,7 +159,14 @@ LEFT JOIN grades g ON e.student_id = g.student_id AND m.module_id = g.module_id
 WHERE g.grades IS NOT NULL
 ORDER BY s.student_id, m.module_name;
 
+-- Release the locks
+UNLOCK TABLES;
+
+
 #Lecturer report
+-- Lock the tables being read
+LOCK TABLES enrollment e READ, Students s READ, program p READ, Modules m READ, lecturers l READ;
+
 SELECT l.lecturer_name, l.job_role, m.module_name, COUNT(e.student_id) AS num_students_currently, l.teaching_classes AS type_class_they_can_teach
 FROM enrollment e
 JOIN Students s ON e.student_id = s.student_id
@@ -160,3 +176,6 @@ JOIN lecturers l ON m.module_id = l.module_id
 WHERE e.finishing_date > '2024-03-21'
 GROUP BY l.lecturer_name, l.job_role, m.module_name, l.teaching_classes
 ORDER BY l.lecturer_name ASC;
+
+-- Release the locks
+UNLOCK TABLES;
