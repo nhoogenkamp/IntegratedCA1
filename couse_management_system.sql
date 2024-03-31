@@ -179,3 +179,6 @@ ORDER BY l.lecturer_name ASC;
 
 -- Release the locks
 UNLOCK TABLES;
+
+SET SQL_SAFE_UPDATES = 0;
+UPDATE grades SET grades = 76 WHERE grades = 75;

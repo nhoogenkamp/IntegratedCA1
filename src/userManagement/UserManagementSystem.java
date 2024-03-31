@@ -43,7 +43,7 @@ public class UserManagementSystem {
      */
     public User authenticate(String username, String password) {
         boolean firstLine = true;
-        try ( BufferedReader reader = new BufferedReader(new FileReader(CSV_FILE_PATH))) {
+        try ( BufferedReader reader = new BufferedReader(new FileReader("users.csv"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 // I had some trouble for the file reader to read my headers and without so I opted to skip first line instead. 

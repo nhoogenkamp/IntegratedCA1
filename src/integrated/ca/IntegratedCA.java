@@ -23,6 +23,7 @@ import java.util.Scanner;
 /**
  *
  * @author Capitania * SBA23047 Niels Hoogenkamp
+ * Github link: https://github.com/nhoogenkamp/IntegratedCA1.git
  *
  * Main class for generating reports in my IntegratedCA system This class
  * creates a database connection, generates a course/student/lecturer report,
